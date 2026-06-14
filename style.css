@@ -53,6 +53,7 @@ label {
 
 @media (max-width: 768px) {
     .login, .signup {
+        position: relative;
         width: 300px;
     }
 }
