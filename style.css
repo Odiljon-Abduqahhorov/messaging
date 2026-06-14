@@ -50,3 +50,10 @@ body {
 label {
     font-weight: bold;
 }
+
+@media (max-width: 768px) {
+    .login form input, .signup form input {
+        width: 150px;
+        left: 10%;
+    }
+}
