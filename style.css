@@ -53,6 +53,6 @@ label {
 
 @media (max-width: 768px) {
     .login form, .signup form {
-        width: 80%;
+        width: 50%;
     }
 }
