@@ -1,4 +1,5 @@
 <?php
+    header("Content-Type: text/html");
     $username = $_POST['username'] ?? '';
     $password = $_POST['password'] ?? '';
     
@@ -17,7 +18,7 @@
     $library['current_user'] = [$username => $password];
     file_put_contents($filename, json_encode($library, JSON_PRETTY_PRINT));
 
-    header("Content_Type: text/html");
+    
     if (!$username || !$password) echo '<h1 style="color: red">Username or password is empty!!!</h1>';
     elseif ($has_user) {
         echo "<h1 style='color: brown'>Already has this account! Try to Log in</h1>";
