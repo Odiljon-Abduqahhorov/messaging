@@ -53,6 +53,6 @@ label {
 
 @media (max-width: 768px) {
     .login form, .signup form {
-        justify-content: center;
+        width: 80%;
     }
 }
