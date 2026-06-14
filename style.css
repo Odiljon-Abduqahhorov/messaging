@@ -50,9 +50,3 @@ body {
 label {
     font-weight: bold;
 }
-
-@media (max-width: 768px) {
-    .login, .signup {
-        align-items: flex-start;
-    }
-}
